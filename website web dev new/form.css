@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    font-size: 12pt;
+}
+
+form,.results{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: montserrat, verdana, sans-serif;
+    background: rgb(45,125,105);
+    background: linear-gradient(0deg,rgba(45125,105,1)0%, rgba(47,76,115,1) 100%);
+}
+
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-size: 1.3em;
+    color: #2f4c73;
+    background-color: #ffffff;
+    padding: 2px 4px;
+    border: 1px dotted #2d7d69;
+    border-radius: 5px;
+}
+
+.instructions{
+    font-style: italic;
+}
+
+.divA, .divB, .divC, .divD, .divE{
+    margin: 12px 0;
+}
+
+.divA input{
+    position: absolute;
+    left: 125px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 3px;
+    color: darkred;
+}
+
+#age{
+    width: 40px;
+}
+
+.left, .right{
+    width: 50px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.radios{
+    clear: both;
+}
+
+.divD select{
+    position: absolute;
+    left: 180px;
+}
+
+.deserve{
+    margin-top: 45px;
+}
+
+textarea{
+    width:380px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#myfile{
+    color: darkred;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: #d9efea 1px solid;
+    color: white;
+    background-color: #2d7d69;
+    font-weight: bold;
+}
+
+buttin:hover{
+    background-color: darkred;
+}
+
+.leftbutton, .rightbutton{
+    width: 50%;
+    float: left;
+}
+
+#submit{
+    float:right;
+}
+
+#reset{
+    float: left;
+}
+
+.results{
+    color: white;
+}
+.results p{
+    margin: 20px 0;
+}
+
+#userdata{
+    color: yellow;
+}
+
+.results a{
+    color: #d9efea;
+}
+
+.results a:hover{
+    color: darkred;
+}
+
+#color{
+    color: black;
+    text-decoration: underline
+}
+
+#decor{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
